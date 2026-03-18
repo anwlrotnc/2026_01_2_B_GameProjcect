@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece0936e2dbcef14f910625c9703f68b, type: 3}
+  m_Name: Item_0005_Mana Potion
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  id: 5
+  itemName: "\uB9C8\uB098 \uD3EC\uC158"
+  description: "\uB9C8\uB098\uB97C 20 \uD68C\uBCF5\uD569\uB2C8\uB2E4."
+  nameEng: Mana Potion
+  itemType: 2
+  price: 40
+  power: 20
+  level: 0
+  isStackable: 1
+  icon: {fileID: 0}
