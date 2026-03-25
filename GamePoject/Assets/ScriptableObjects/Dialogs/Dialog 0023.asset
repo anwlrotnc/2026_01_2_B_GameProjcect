@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1126158ec607b045b3eb4657abb7832, type: 3}
+  m_Name: Dialog_0023
+  m_EditorClassIdentifier: Assembly-CSharp::DialogSO
+  id: 23
+  characterName: "\uD0D0\uD5D8\uAC00"
+  text: "\uBB3C\uBCD1\uC5D0 \uC0D8\uBB3C\uC744 \uAC00\uB4DD \uB2F4\uC558\uC2B5\uB2C8\uB2E4.
+    \uC774\uC81C \uB178\uC778\uC5D0\uAC8C \uB3CC\uC544\uAC11\uB2C8\uB2E4."
+  nextid: 24
+  choices: []
+  portrait: {fileID: 0}
+  portraitPath: Characters/Explorer

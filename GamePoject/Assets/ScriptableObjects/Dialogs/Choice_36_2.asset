@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a7cea64bfe0ff4abd5e3662cf4cbd0, type: 3}
+  m_Name: Choice_36_2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogChoiceSO
+  text: "\uB6F0\uC5B4\uB118\uB294\uB2E4"
+  nextId: 50

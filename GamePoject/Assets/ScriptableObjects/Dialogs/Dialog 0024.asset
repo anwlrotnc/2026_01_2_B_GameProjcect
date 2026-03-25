@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1126158ec607b045b3eb4657abb7832, type: 3}
+  m_Name: Dialog_0024
+  m_EditorClassIdentifier: Assembly-CSharp::DialogSO
+  id: 24
+  characterName: "\uB178\uC778"
+  text: "\uACE0\uB9D9\uB124, \uC80A\uC740\uC774! \uC57D\uC18D\uB300\uB85C \uC9C0\uB3C4\uB97C
+    \uC8FC\uACA0\uB124. \uC774\uAC78 \uB530\uB77C\uAC00\uBA74 \uC548\uC804\uD558\uAC8C
+    \uC232\uC744 \uBE60\uC838\uB098\uAC08 \uC218 \uC788\uC744 \uAC78\uC138."
+  nextid: 19
+  choices: []
+  portrait: {fileID: 0}
+  portraitPath: Characters/OldMan
