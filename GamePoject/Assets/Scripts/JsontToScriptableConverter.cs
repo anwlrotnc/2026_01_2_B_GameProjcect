@@ -55,16 +55,17 @@ public class JsontToScriptableConverter : EditorWindow
         //변환타입 선택
         conversionType = (ConversionType)EditorGUILayout.EnumPopup("Conversion Type", conversionType);
         Debug.Log(outputFolder);
-        
+
         //타입에 따라 기본 출력 폴더 설정
-        if (conversionType == ConversionType.Items)                        //&& outputFolder == "Assets/ScriptableObjects"    <---이거 있으면 파일경로 자동변환이 안됨...
+        if (conversionType == ConversionType.Items)
         {
             outputFolder = "Assets/ScriptableObjects/Item";
         }
-        else if (conversionType == ConversionType.Dialogs)                 //&& outputFolder == "Assets/ScriptableObjects"
+        else if (conversionType == ConversionType.Dialogs )
         {
             outputFolder = "Assets/ScriptableObjects/Dialogs";
         }
+
         if (GUILayout.Button("Convert to Scriptable Objects"))
         {
             if (string.IsNullOrEmpty(jsonFilePath))
@@ -78,11 +79,11 @@ public class JsontToScriptableConverter : EditorWindow
                 case ConversionType.Items:
                     ConvertJsonToItemScriptableObjects();
                     break;
-                    case ConversionType.Dialogs:
+                case ConversionType.Dialogs:
                     ConvertJsonToDialogScriptableObjects();
                     break;
             }
-            
+
         }
     }
 
@@ -264,7 +265,7 @@ public class JsontToScriptableConverter : EditorWindow
             foreach(var dialog in createDialogs)
             {
                 //스크립터블 오브젝터 즈정 - ID 4자리 포맷
-                string assetPath = $"{outputFolder}/Dialog {dialog.id.ToString("D4")}.asset";
+                string assetPath = $"{outputFolder}/Dialog_{dialog.id.ToString("D4")}.asset";
                 AssetDatabase.CreateAsset(dialog, assetPath);
 
                 //에셋 이름 지정
