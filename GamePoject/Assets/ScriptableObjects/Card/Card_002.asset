@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: "\uCE58\uC720"
   description: "\uD638\uB791\uC774 \uAE30\uC6B4!"
-  artwork: {fileID: 0}
+  artwork: {fileID: 21300000, guid: feb8709f10385a94095b55fe8d0f625c, type: 3}
   manaCost: 3
   effectAmount: 5
   cardType: 1
