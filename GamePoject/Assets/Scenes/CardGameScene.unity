@@ -376,11 +376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
   characterName: "\uD50C\uB808\uC774\uC5B4"
-  maxHealth: 100
+  maxHealth: 600
   currentHealth: 0
   healthBar: {fileID: 0}
-  maxMana: 10
-  currentMana: 0
+  maxMana: 600
+  currentMana: 600
   manaBar: {fileID: 0}
   manaText: {fileID: 0}
   healthText: {fileID: 0}
@@ -921,6 +921,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 93c9fab6fac4c204a9effa474cb996f6, type: 2}
   - {fileID: 11400000, guid: b6c7fedf210ccad458f1175a88bdcd85, type: 2}
   - {fileID: 11400000, guid: 9b4e04cc8b9313b44bbaef109bed89bd, type: 2}
+  - {fileID: 11400000, guid: 82f1f903da8673a4e85c06b71b20f05b, type: 2}
+  - {fileID: 11400000, guid: 04eb75e464183a34fa3078219bf7e809, type: 2}
+  - {fileID: 11400000, guid: 82f1f903da8673a4e85c06b71b20f05b, type: 2}
+  - {fileID: 11400000, guid: 04eb75e464183a34fa3078219bf7e809, type: 2}
+  - {fileID: 11400000, guid: 82f1f903da8673a4e85c06b71b20f05b, type: 2}
+  - {fileID: 11400000, guid: 04eb75e464183a34fa3078219bf7e809, type: 2}
   handCards: []
   discardCards: []
   cardPrefabs: {fileID: 4555814875394045575, guid: 7fe2bd32878e3e848a937aa81f12c800, type: 3}
@@ -929,6 +935,7 @@ MonoBehaviour:
   discardPosition: {fileID: 827805587}
   cardObjects: []
   playerStats: {fileID: 1443872520}
+  enemyStats: {fileID: 0}
 --- !u!4 &1959855782
 Transform:
   m_ObjectHideFlags: 0
